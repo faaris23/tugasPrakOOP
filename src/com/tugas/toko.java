@@ -34,7 +34,7 @@ public class toko {
         System.out.println("SEMBAKO GOLDEN EXPERINCE");
         System.out.println("Keunggulan  \t\t: " + this.keunggulan);
         System.out.println("\t\tTOP 3 PENDAPATAN UTAMA: \t\t");
-        System.out.println("1. \t\t: " + this.mainIncome1);
+        System.out.println("1. \t: " + this.mainIncome1);
         System.out.println("2. \t: " + this.mainIncome2);
         System.out.println("3. \t: " + this.mainIncome3);
         System.out.println("====================================");
