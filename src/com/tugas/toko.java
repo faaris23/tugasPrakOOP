@@ -40,7 +40,7 @@ public class toko {
 	}
     
     public void mototoko(){
-        //Encapsulation (ini sebenarnya kek orang teriak gitu, tapi bingung nulis gimana, soalny kalo TerikkanMoto() malah aneh)
+        //Polymorphism (ini sebenarnya kek orang teriak gitu, tapi bingung nulis gimana, soalny kalo TerikkanMoto() malah aneh rasanya, jadi keknya emang gini sih)
         System.out.println("MOTTO TOKO KAMI ADALAH : " + this.mototoko);
     }
 }
