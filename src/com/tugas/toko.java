@@ -2,13 +2,16 @@ package com.tugas;
 
 public class toko {
     private String namaToko;
-    private String Produk;
     private String penjelasan;
-
+    private String mototoko;
+    private String keunggulan;
+    private String mainIncome1;
+    private String mainIncome2;
+    private String mainIncome3;
 
     public toko(String namaToko){
         this.namaToko = namaToko;
-        this.Produk = "none";
+        
     }
     public String getNama(){
         return namaToko;
@@ -17,22 +20,27 @@ public class toko {
 		this.namaToko = namaToko;
 	}
 	
-	public String getProduk () {
-		return Produk;
-	}
-	public void setProduk (String Produk) {
-		this.Produk = Produk;
-	}
-
     public String getPenjelasan(){
         return penjelasan;
     }
     public void setPenjelasan(String penjelasan){
         this.penjelasan = penjelasan;
     }
+
 	void display(){
 		System.out.println("\nNama \t\t: " + this.namaToko);
-		System.out.println("Barang Yang di Jual \t\t: " + this.Produk);
         System.out.println("Penjelasan : \t\t" + this.penjelasan);
+        System.out.println("====================================");
+        System.out.println("SEMBAKO GOLDEN EXPERINCE");
+        System.out.println("Keunggulan  \t\t: " + this.keunggulan);
+        System.out.println("\t\tTOP 3 PENDAPATAN UTAMA: \t\t");
+        System.out.println("1. \t\t: " + this.mainIncome1);
+        System.out.println("2. \t: " + this.mainIncome2);
+        System.out.println("3. \t: " + this.mainIncome3);
+        System.out.println("====================================");
 	}
+    
+    public void mototoko(){
+        System.out.println("MOTTO TOKO KAMI ADALAH : " + this.mototoko);
+    }
 }
