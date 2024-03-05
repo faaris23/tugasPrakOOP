@@ -1,5 +1,8 @@
 ## Getting Started
 
+## FOR THE RECORD
+## SAYA BIKIN INI MAKE VSCODE, JADI KALO MUNGKIN ADA MASALAH, LANGSUNG AJA HUBUNGI SAYA
+
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
